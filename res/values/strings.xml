@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">training1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_subscription_form">SubscriptionForm</string>
+
+    <string-array name="profession_array">
+        <item>Software Engineer</item>
+        <item>Doctor</item>
+        <item>Analyst</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="magazine_array">
+        <item>digit_silent_killing</item>
+        <item>great_escape</item>
+        <item>rad1</item>
+        <item>cosmopolitan</item>
+        <item>time_colossus</item>
+        <item>time_whats_next</item>
+    </string-array>
+
+    <string name="title_activity_tab_bar">TabBar</string>
+    <string name="title_activity_tabs_main">TabsMainActivity</string>
+    <string name="title_activity_tab1_fragment">Tab1Fragment</string>
+    <string name="title_activity_tab2_fragment">Tab2Fragment</string>
+    <string name="title_activity_tab3_fragment">Tab3Fragment</string>
+    <string name="title_activity_download_issue">DownloadIssue</string>
+
+</resources>

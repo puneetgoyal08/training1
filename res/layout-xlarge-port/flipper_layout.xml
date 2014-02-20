@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/blue_splash">
+ -->
+  <merge  xmlns:android="http://schemas.android.com/apk/res/android">
+ <RelativeLayout
+    android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/blue_splash">
+    <ImageView
+        android:id="@+id/issueImage"
+        android:layout_width="match_parent"
+        android:contentDescription="Issue Image"
+        android:layout_height="match_parent" />
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/download_square" />
+
+        <ImageView
+            android:id="@+id/downloading"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/laoder" />
+        
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/play" />
+    </ViewFlipper>
+    
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cancel1"
+        android:contentDescription="Cancel Downloading" />
+    </RelativeLayout>
+</merge>
+<!-- </RelativeLayout> -->
